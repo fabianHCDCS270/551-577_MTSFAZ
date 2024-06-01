@@ -49,7 +49,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="18dp"
-                android:background="@drawable/textbox_frame"
+                android:background="@drawable/text_framebox"
                 android:ems="10"
 
                 android:hint="Enter your username"
@@ -73,7 +73,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:background="@drawable/textbox_frame"
+                android:background="@drawable/text_framebox"
                 android:ems="10"
 
                 android:hint="Enter your password"
