@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ECF87F"
+    android:background="#FBFFE7"
     android:paddingLeft="20dp"
-    android:paddingRight="20dp"
     android:paddingTop="60dp"
+    android:paddingRight="20dp"
     app:layout_insetEdge="none"
     app:layout_scrollEffect="none">
 
@@ -20,7 +20,7 @@
             android:id="@+id/linearLayout2"
             android:layout_width="match_parent"
             android:layout_height="470dp"
-            android:background="@drawable/container_content_bordered"
+            android:background="@drawable/container_content_solid"
 
             android:orientation="vertical">
 
@@ -49,7 +49,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="18dp"
-                android:background="@drawable/container_input"
+                android:background="@drawable/textbox_frame"
                 android:ems="10"
 
                 android:hint="Enter your username"
@@ -72,14 +72,14 @@
                 android:id="@+id/editTextTextPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/container_input"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/textbox_frame"
                 android:ems="10"
-                android:hint="Enter your password"
 
+                android:hint="Enter your password"
                 android:inputType="textPassword"
                 android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:layout_marginBottom="8dp"/>
+                android:paddingBottom="10dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -105,7 +105,7 @@
                     android:layout_height="48dp"
 
                     android:layout_gravity="end"
-                    android:background="@drawable/container_input_button"
+                    android:background="@drawable/button_solid"
                     android:text="Login"
                     android:textColor="#FFFFFF"
                     app:cornerRadius="8dp" />
@@ -138,7 +138,7 @@
                 android:layout_height="48dp"
 
                 android:layout_gravity="center|start"
-                android:background="@drawable/container_input_button"
+                android:background="@drawable/button_solid"
                 android:text="Sign Up"
                 android:textAllCaps="true"
                 android:textColor="#FFFFFF"
