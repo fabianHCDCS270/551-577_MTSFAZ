@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFFE7"
+    app:layout_insetEdge="none"
+    app:layout_scrollEffect="none">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="#224E2F"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:clickable="true"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:background="#00FFFFFF"
+                android:paddingStart="20dp"
+                android:paddingTop="35dp"
+                app:srcCompat="@drawable/arrow_left" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="0"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:text="About App"
+                android:textAlignment="center"
+
+                style="@style/green_dark_20dp"/>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="8dp"
+                android:background="#224E2F"/>
+
+            <TextView
+                android:id="@+id/developedby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Developed By"
+
+                style="@style/green_dark_20dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingStart="8dp"/>
+
+            <TextView
+                android:id="@+id/fatehah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nor Fatehah Binti Sofian"
+
+                style="@style/green_dark_14dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:paddingStart="8dp"/>
+
+            <TextView
+                android:id="@+id/najwa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nor Najwatul Balqis Binti Redzuan"
+
+                style="@style/green_dark_14dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:paddingStart="8dp"/>
+
+            <TextView
+                android:id="@+id/firzanah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Husna Firzanah Binti Abdul Hamid"
+
+                style="@style/green_dark_14dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:paddingStart="8dp"/>
+
+            <TextView
+                android:id="@+id/fabian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fabian Harrison Anak Thomas Tarang"
+
+                style="@style/green_dark_14dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:paddingStart="8dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
