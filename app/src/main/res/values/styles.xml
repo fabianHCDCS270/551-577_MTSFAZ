@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Uncolored Font Collection (12dp/14dp/20dp) -->
+    <style name="plain_12dp">
+        <item name="android:textSize">12dp</item>
+        <item name="android:fontFamily">@font/rounded_mplus_1c_bold</item>
+    </style>
+    <style name="plain_14dp">
+        <item name="android:textSize">14dp</item>
+        <item name="android:fontFamily">@font/rounded_mplus_1c_bold</item>
+    </style>
+    <style name="plain_20dp">
+        <item name="android:textSize">20dp</item>
+        <item name="android:fontFamily">@font/rounded_mplus_1c_bold</item>
+    </style>
+
+
+    <!-- Dark Green Font Collection (12dp/14dp/20dp) -->
+    <style name="green_dark_12dp">
+        <item name="android:textColor">#224E2F</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:fontFamily">@font/rounded_mplus_1c_bold</item>
+    </style>
+    <style name="green_dark_14dp">
+        <item name="android:textColor">#224E2F</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:fontFamily">@font/rounded_mplus_1c_bold</item>
+    </style>
+    <style name="green_dark_20dp">
+        <item name="android:textColor">#224E2F</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:fontFamily">@font/rounded_mplus_1c_bold</item>
+    </style>
+
+
+    <!-- Pale Yellow Font Collection (12dp/14dp/20dp) -->
+    <style name="yellow_pale_12dp">
+        <item name="android:textColor">#FBFFE7</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:fontFamily">@font/rounded_mplus_1c_bold</item>
+    </style>
+    <style name="yellow_pale_14dp">
+        <item name="android:textColor">#FBFFE7</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:fontFamily">@font/rounded_mplus_1c_bold</item>
+    </style>
+    <style name="yellow_pale_20dp">
+        <item name="android:textColor">#FBFFE7</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:fontFamily">@font/rounded_mplus_1c_bold</item>
+    </style>
+</resources>
