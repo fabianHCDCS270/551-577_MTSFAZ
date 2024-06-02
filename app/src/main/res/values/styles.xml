@@ -5,10 +5,12 @@
         <item name="android:textSize">12dp</item>
         <item name="android:fontFamily">@font/rounded_mplus_1c_bold</item>
     </style>
+
     <style name="plain_14dp">
         <item name="android:textSize">14dp</item>
         <item name="android:fontFamily">@font/rounded_mplus_1c_bold</item>
     </style>
+
     <style name="plain_20dp">
         <item name="android:textSize">20dp</item>
         <item name="android:fontFamily">@font/rounded_mplus_1c_bold</item>
@@ -21,11 +23,13 @@
         <item name="android:textSize">12dp</item>
         <item name="android:fontFamily">@font/rounded_mplus_1c_bold</item>
     </style>
+
     <style name="green_dark_14dp">
         <item name="android:textColor">#224E2F</item>
         <item name="android:textSize">14dp</item>
         <item name="android:fontFamily">@font/rounded_mplus_1c_bold</item>
     </style>
+
     <style name="green_dark_20dp">
         <item name="android:textColor">#224E2F</item>
         <item name="android:textSize">20dp</item>
@@ -39,11 +43,13 @@
         <item name="android:textSize">12dp</item>
         <item name="android:fontFamily">@font/rounded_mplus_1c_bold</item>
     </style>
+
     <style name="yellow_pale_14dp">
         <item name="android:textColor">#FBFFE7</item>
         <item name="android:textSize">14dp</item>
         <item name="android:fontFamily">@font/rounded_mplus_1c_bold</item>
     </style>
+
     <style name="yellow_pale_20dp">
         <item name="android:textColor">#FBFFE7</item>
         <item name="android:textSize">20dp</item>
