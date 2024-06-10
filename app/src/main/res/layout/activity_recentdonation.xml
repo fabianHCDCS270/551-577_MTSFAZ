@@ -35,6 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
                 android:background="#00FFFFFF"
+                android:clickable="true"
                 android:paddingStart="20dp"
                 android:paddingTop="35dp"
                 app:srcCompat="@drawable/arrow_left_pale_yellow" />
@@ -57,7 +58,7 @@
                 android:paddingTop="16dp"
 
                 android:paddingBottom="16dp"
-                android:text="App Settings"
+                android:text="Recent Donation"
                 android:textAlignment="center" />
 
             <View
@@ -65,7 +66,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_marginBottom="8dp"
-                android:background="#224E2F" />
+                android:background="#224E2F"  />
         </LinearLayout>
 
     </LinearLayout>
