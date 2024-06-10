@@ -91,24 +91,24 @@
 
             <TextView
                 android:id="@+id/textView4"
+                style="@style/green_dark_14dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
 
-                style="@style/green_dark_14dp"
                 android:paddingStart="4dp"
-                android:paddingBottom="4dp"/>
+                android:paddingBottom="4dp"
+                android:text="Subject" />
 
             <EditText
                 android:id="@+id/editTextText3"
+                style="@style/plain_14dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="text"
-                android:text="Name"
-
                 android:background="@drawable/text_framebox"
-                style="@style/plain_14dp"/>
+
+                android:ems="10"
+                android:hint="Title"
+                android:inputType="text" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -119,40 +119,41 @@
                 android:layout_marginTop="8dp"
                 android:paddingStart="4dp"
                 android:paddingBottom="4dp"
-                android:text="TextView" />
+                android:text="Amount (RM)" />
 
             <EditText
                 android:id="@+id/editTextText4"
+                style="@style/plain_14dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="text"
-                android:text="Name"
-
                 android:background="@drawable/text_framebox"
-                style="@style/plain_14dp"/>
+
+                android:ems="10"
+                android:hint="0.00"
+                android:inputType="text" />
 
             <TextView
                 android:id="@+id/textView6"
+                style="@style/green_dark_14dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
 
-                style="@style/green_dark_14dp"
+                android:layout_marginTop="8dp"
                 android:paddingStart="4dp"
                 android:paddingBottom="4dp"
-                android:layout_marginTop="8dp"/>
+                android:text="Remark" />
 
             <EditText
                 android:id="@+id/editTextText5"
                 style="@style/plain_14dp"
                 android:layout_width="match_parent"
-                android:layout_height="75dp"
+                android:layout_height="125dp"
                 android:background="@drawable/text_framebox"
                 android:ems="10"
 
-                android:inputType="text"
-                android:text="Name" />
+                android:gravity="top|left"
+                android:hint="Anything else to say?"
+                android:inputType="text" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -161,20 +162,20 @@
 
                 <Button
                     android:id="@+id/button3"
+                    style="@style/green_dark_14dp"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
-                    android:layout_marginStart="230dp"
 
-                    style="@style/green_dark_14dp"
+                    android:layout_marginStart="260dp"
                     android:layout_marginTop="12dp"
                     android:layout_weight="1"
                     android:background="@drawable/button_outlined"
-                    android:text="Donate"
-                    android:textAllCaps="false"
-                    android:drawableEnd="@drawable/button_sized_drawable"
-                    android:paddingEnd="16dp"
+                    android:drawableEnd="@drawable/arrow4button_green_right"
+                    android:gravity="right|center_vertical"
                     android:paddingStart="16dp"
-                    />
+                    android:paddingEnd="16dp"
+                    android:text="Donate"
+                    android:textAllCaps="false" />
             </LinearLayout>
 
             <View
@@ -182,9 +183,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
 
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                android:background="#224E2F"  />
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#224E2F" />
 
             <Button
                 android:id="@+id/button4"
@@ -193,7 +194,11 @@
                 android:layout_height="40dp"
 
                 android:background="@drawable/button_solid"
-                android:text="Button"
+                android:drawableEnd="@drawable/arrow4button_yellow_right"
+                android:gravity="right|center_vertical"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="Alternative Method"
                 android:textAllCaps="false" />
 
         </LinearLayout>
