@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Arrays;
 import java.util.List;
 
-public class forPage_recentDonation extends AppCompatActivity {
+public class forPage_recentDonation_pending extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,7 @@ public class forPage_recentDonation extends AppCompatActivity {
                 "May", "June", "July", "August", "September",
                 "October", "November", "December");
 
-        Spinner spinner = findViewById(R.id.dropdown_recentDonation);
+        Spinner spinner = findViewById(R.id.dropdown_recentDonation1);
 
         ArrayAdapter adapter = new ArrayAdapter<>(
                 getApplicationContext(),
